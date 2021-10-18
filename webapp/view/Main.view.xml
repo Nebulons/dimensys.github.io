@@ -1,0 +1,47 @@
+<mvc:View
+    controllerName="be.dimensys.assetperformance.assetperformance.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page">
+					<content>
+						<VBox width="100%" height="100%" alignItems="Center" justifyContent="Center">
+							<HBox>
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="SAP IAM"
+									press="press" url="https://www.sap.com/">
+									<TileContent>
+										<ImageContent src="test-resources/sap/m/demokit/sample/GenericTileAsLaunchTile/images/SAPLogoLargeTile_28px_height.png" />
+									</TileContent>
+								</GenericTile>
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="SAP FSM"
+									press="press" url="https://www.sap.com/">
+									<TileContent>
+										<ImageContent src="https://image.winudf.com/v2/image1/Y29tLnNhcC5mc21faWNvbl8xNjMxNTE5MTgzXzA0MQ/icon.png?w=170&#38;fakeurl=1" />
+									</TileContent>
+								</GenericTile>
+							</HBox>
+							<HBox>
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Dimensys Accelerators"
+									press="press" url="https://www.sap.com/">
+									<TileContent>
+										<ImageContent src="data:image/png;base64,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" />
+									</TileContent>
+								</GenericTile>
+								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="SAP MRS"
+									press="press" url="https://www.sap.com/">
+									<TileContent>
+										<ImageContent src="test-resources/sap/m/demokit/sample/GenericTileAsLaunchTile/images/SAPLogoLargeTile_28px_height.png" />
+									</TileContent>
+								</GenericTile>
+							</HBox>
+						</VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
