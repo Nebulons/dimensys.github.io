@@ -80,6 +80,11 @@
           "name": "RouteMain",
           "pattern": "RouteMain",
           "target": ["TargetMain"]
+        },
+        {
+          "name": "iam",
+          "pattern": "iam",
+          "target": ["iam"]
         }
       ],
       "targets": {
@@ -87,8 +92,13 @@
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "Main",
           "viewName": "Main"
+        },
+        "iam": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewName": "Iam"
         }
       }
     }

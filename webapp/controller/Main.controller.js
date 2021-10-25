@@ -1,5 +1,5 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
+	"./BaseController"
 ],
 	/**
 	 * @param {typeof sap.ui.core.mvc.Controller} Controller
@@ -14,6 +14,10 @@ sap.ui.define([
 
 			press: function (oEvent) {
 				
-			}
+			},
+			pressIAM: function (oEvent) {
+				this.getRouter().navTo("iam");
+			},
+
 		});
 	});

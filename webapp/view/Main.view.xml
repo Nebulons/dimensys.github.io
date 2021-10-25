@@ -12,7 +12,7 @@
 						<VBox width="100%" height="100%" alignItems="Center" justifyContent="Center">
 							<HBox>
 								<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="SAP IAM"
-									press="press" url="https://www.sap.com/">
+									press="pressIAM" url="https://www.sap.com/">
 									<TileContent>
 										<ImageContent src="test-resources/sap/m/demokit/sample/GenericTileAsLaunchTile/images/SAPLogoLargeTile_28px_height.png" />
 									</TileContent>
