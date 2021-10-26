@@ -1,0 +1,15 @@
+<mvc:View controllerName="be.dimensys.assetperformance.assetperformance.controller.FSMScheduling" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <Page id="page" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <ScrollContainer height="100%" width="100%" horizontal="true" vertical="true">
+                <FlexBox direction="Column" renderType="Div" class="sapUiSmallMargin">
+                    <PDFViewer source="../media/FSMScheduling.pdf" title="FSM Scheduling" height="800px" width="auto">
+                        <layoutData>
+                            <FlexItemData growFactor="1" />
+                        </layoutData>
+                    </PDFViewer>
+                </FlexBox>
+            </ScrollContainer>
+        </content>
+    </Page>
+</mvc:View>

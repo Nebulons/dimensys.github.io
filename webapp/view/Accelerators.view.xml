@@ -1,0 +1,8 @@
+<mvc:View controllerName="be.dimensys.assetperformance.assetperformance.controller.Accelerators" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+    xmlns:me="be.dimensys.assetperformance.assetperformance.control" >
+    <Page id="page" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <me:Video src="../media/Acceleratorspromo.mp4" type="video/mp4" width="100%"></me:Video>
+        </content>
+    </Page>
+</mvc:View>

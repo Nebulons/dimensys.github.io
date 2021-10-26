@@ -19,5 +19,17 @@ sap.ui.define([
 				this.getRouter().navTo("iam");
 			},
 
+			pressAcc: function (oEvent) {
+				this.getRouter().navTo("accelerators");
+			},
+
+			pressScheduling: function (oEvent) {
+				this.getRouter().navTo("scheduling");
+			},
+
+			pressMobile: function (oEvent) {
+				this.getRouter().navTo("execution");
+			}
+
 		});
 	});

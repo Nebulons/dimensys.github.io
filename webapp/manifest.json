@@ -85,6 +85,21 @@
           "name": "iam",
           "pattern": "iam",
           "target": ["iam"]
+        },
+        {
+          "name": "accelerators",
+          "pattern": "accelerators",
+          "target": ["accelerators"]
+        },
+        {
+          "name": "scheduling",
+          "pattern": "scheduling",
+          "target": ["scheduling"]
+        },
+        {
+          "name": "execution",
+          "pattern": "execution",
+          "target": ["execution"]
         }
       ],
       "targets": {
@@ -99,6 +114,24 @@
           "transition": "slide",
           "clearControlAggregation": false,
           "viewName": "Iam"
+        },
+        "accelerators": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewName": "Accelerators"
+        },
+        "scheduling": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewName": "FSMScheduling"
+        },
+        "execution": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewName": "FSMExecution"
         }
       }
     }
