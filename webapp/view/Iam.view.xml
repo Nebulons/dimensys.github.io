@@ -2,7 +2,7 @@
     <Page id="page" showNavButton="true" navButtonPress="onNavBack" >
         <content>
             <ScrollContainer height="100%" width="100%" horizontal="true" vertical="true">
-                <PDFViewer source="../media/IAM.pdf" title="IAM" height="800px" width="auto">
+                <PDFViewer source="../webapp/media/IAM.pdf" title="IAM" height="800px" width="auto">
                     <layoutData>
                         <FlexItemData growFactor="1" />
                     </layoutData>

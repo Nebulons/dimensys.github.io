@@ -3,7 +3,7 @@
         <content>
             <ScrollContainer height="100%" width="100%" horizontal="true" vertical="true">
                 <FlexBox direction="Column" renderType="Div" class="sapUiSmallMargin">
-                    <PDFViewer source="../media/FSMMobileExecution.pdf" title="FSM Mobile execution" height="800px" width="auto">
+                    <PDFViewer source="../webapp/media/FSMMobileExecution.pdf" title="FSM Mobile execution" height="800px" width="auto">
                         <layoutData>
                             <FlexItemData growFactor="1" />
                         </layoutData>
